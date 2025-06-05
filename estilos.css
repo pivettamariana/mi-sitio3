@@ -7,7 +7,7 @@
     text-decoration: none;
 }
 
-h1,h2,h3{
+h1,h2,h3,h4{
     font-family: "Titillium Web", sans-serif;
 }
 
@@ -131,7 +131,7 @@ header nav{
 #actividades article a:hover{
     color: var(--primary);
     background-color: black;
-    border: 2.8px solid black;
+    border: 2.8px solid transparent;
 }
 
 #actividades article:nth-of-type(4) img{
@@ -303,7 +303,7 @@ figcaption a:hover{
 
 #tickets a:hover{
     background-color: white;
-    border: 2px solid white;
+    border: 2px solid transparent;
     color: var(--primary);
 }
 
@@ -360,7 +360,7 @@ footer span {
     }
 
     header img{
-        height: 3.3vh;
+        height: 3.2vh;
     }
 
     header nav a{
@@ -561,7 +561,7 @@ footer span {
     }
 
     header img{
-        height: 4vh;
+        height: 5vh;
     }
 
     /* hero */
